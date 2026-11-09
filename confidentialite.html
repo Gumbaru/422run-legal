@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>42.2 · Politique de confidentialité</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<div class="brand">42,2</div>
+<h1>Politique de confidentialité</h1>
+<p class="muted">En vigueur au 9 novembre 2026. <a href="privacy.html">English version</a></p>
+
+<p>42.2 est une application d'entraînement à la course à pied, pensée pour courir en famille et entre amis. Cette page explique quelles données elle utilise, pourquoi, où elles sont stockées et comment tu gardes la main dessus. Elle est écrite simplement : si quelque chose n'est pas clair, écris-nous.</p>
+
+<h2>1. Qui est responsable de tes données</h2>
+<p>Le responsable du traitement est <strong>Elias De Bernardo</strong>, éditeur de l'application 42.2.<br>Contact pour toute question ou demande sur tes données : <a href="mailto:contact@422run.app">contact@422run.app</a>.</p>
+
+<h2>2. Les données que nous utilisons</h2>
+<div class="wrap"><table>
+<tr><th>Données</th><th>D'où elles viennent</th><th>À quoi elles servent</th></tr>
+<tr><td>Compte : adresse e-mail, prénom, photo de profil (facultative), langue</td><td>Toi, ou Apple / Google si tu te connectes avec eux</td><td>Te connecter, t'afficher à ta famille et à tes groupes</td></tr>
+<tr><td>Profil sportif : année de naissance, sexe, FC max et FC au repos, objectif de course, chaussures</td><td>Toi ou Apple Santé</td><td>Calculer ton plan, tes allures et tes zones</td></tr>
+<tr><td><strong>Données de santé</strong> : entraînements (date, durée, distance, allure, fréquence cardiaque, tracé GPS), sommeil, fréquence cardiaque au repos, variabilité cardiaque, poids</td><td>Apple Santé, avec ton autorisation</td><td>Calculer ta forme, ta charge, ton sommeil, adapter ton plan, tes records et ton bilan de séance</td></tr>
+<tr><td>Séances guidées sur l'Apple Watch : temps, distance et cœur par étape, ton ressenti</td><td>Ta montre</td><td>Ton bilan après la course</td></tr>
+<tr><td>Parcours créés, position de départ</td><td>Toi</td><td>Calculer et enregistrer tes parcours</td></tr>
+<tr><td>Vie sociale : familles et groupes, duels, réactions, bravos, « en train de courir »</td><td>Toi et tes proches</td><td>Le fil famille, les classements, les duels, les encouragements</td></tr>
+<tr><td>Jeton de notification, langue</td><td>Ton iPhone</td><td>T'envoyer les notifications que tu as choisies</td></tr>
+</table></div>
+<p>Nous ne collectons pas de données publicitaires, ne te suivons pas sur d'autres apps ou sites, et <strong>ne vendons ni ne louons aucune donnée</strong>. Les données de santé ne servent jamais à la publicité ni au marketing.</p>
+
+<h2>3. Sur quelle base</h2>
+<ul>
+<li><strong>Données de santé</strong> : ton <strong>consentement explicite</strong> (RGPD, article 9.2.a), donné dans l'app avant toute lecture d'Apple Santé. Tu peux le retirer à tout moment dans Réglages › Compte et données › Retirer mon accord santé : tes données de santé sont alors effacées de nos serveurs.</li>
+<li><strong>Compte, plan, vie sociale</strong> : l'exécution du service que tu demandes en utilisant l'app (article 6.1.b).</li>
+<li><strong>Sécurité et correction des plantages</strong> : notre intérêt légitime à faire fonctionner l'app correctement (article 6.1.f).</li>
+</ul>
+
+<h2>4. Qui voit quoi</h2>
+<ul>
+<li><strong>Ta famille</strong> voit tes séances, ta charge et ton sommeil seulement si tu actives « Partager avec ma famille » (désactivé par défaut).</li>
+<li><strong>Tes groupes d'amis</strong> voient ton prénom, ta photo et tes kilomètres de course, jamais le détail de tes séances.</li>
+<li><strong>Le classement général</strong> n'affiche ton prénom que si tu t'y inscris.</li>
+<li>Pendant une séance guidée, tes proches voient que tu cours et tes kilomètres, pour pouvoir t'encourager.</li>
+</ul>
+
+<h2>5. Où sont stockées tes données, et les prestataires</h2>
+<p>Tes données sont stockées chez <strong>Supabase</strong>, sur des serveurs situés dans l'Union européenne (Francfort, Allemagne). Quelques prestataires interviennent, chacun pour une tâche précise :</p>
+<div class="wrap"><table>
+<tr><th>Prestataire</th><th>Rôle</th><th>Ce qu'il reçoit</th><th>Lieu</th></tr>
+<tr><td>Supabase</td><td>Base de données, connexion, fichiers</td><td>Toutes les données de l'app</td><td>UE (Francfort)</td></tr>
+<tr><td>Apple</td><td>Santé (sur ton appareil), connexion avec Apple, notifications</td><td>Ce que tu autorises</td><td>Selon Apple</td></tr>
+<tr><td>Google</td><td>Connexion avec Google (si tu la choisis)</td><td>Ton identifiant Google</td><td>États-Unis</td></tr>
+<tr><td>Expo (650 Industries)</td><td>Envoi des notifications et mises à jour de l'app</td><td>Jeton de notification, texte de la notification</td><td>États-Unis</td></tr>
+<tr><td>Resend</td><td>E-mails de connexion</td><td>Ton adresse e-mail</td><td>États-Unis</td></tr>
+<tr><td>OpenRouteService (HeiGIT, Heidelberg)</td><td>Calcul des parcours</td><td>Points de départ et d'arrivée, sans ton identité</td><td>Allemagne</td></tr>
+<tr><td>OpenFreeMap, Esri</td><td>Fonds de carte et vue satellite</td><td>Les tuiles de carte affichées (comme tout site de cartes)</td><td>UE / États-Unis</td></tr>
+<tr><td>Sentry</td><td>Rapports de plantage</td><td>Détails techniques du plantage, sans données de santé</td><td>UE (Francfort)</td></tr>
+</table></div>
+<p>Pour les prestataires situés hors de l'Union européenne, les transferts reposent sur les clauses contractuelles types de la Commission européenne ou sur le cadre de protection des données UE–États-Unis.</p>
+<p>42.2 n'utilise aucune intelligence artificielle tierce sur tes données. Si un coach IA est ajouté plus tard, l'app te demandera d'abord ton accord, séparément.</p>
+
+<h2>6. Combien de temps</h2>
+<ul>
+<li>Tant que ton compte existe. Quand tu le supprimes, tout est effacé immédiatement de la base (les sauvegardes techniques disparaissent ensuite sous 30 jours au plus).</li>
+<li>Si tu retires ton accord santé, tes données de santé sont effacées tout de suite ; ton compte reste.</li>
+<li>Le statut « en train de courir » disparaît à la fin de la séance.</li>
+</ul>
+
+<h2>7. Tes droits</h2>
+<p>Tu peux à tout moment accéder à tes données, les corriger, les effacer, en recevoir une copie (portabilité), t'opposer à un traitement ou le limiter, et retirer ton consentement.</p>
+<ul>
+<li><strong>Supprimer ton compte</strong> : directement dans l'app, Réglages › Compte et données › Supprimer mon compte.</li>
+<li><strong>Retirer ton accord santé</strong> : Réglages › Compte et données › Retirer mon accord santé.</li>
+<li><strong>Toute autre demande</strong> (copie de tes données, par exemple) : <a href="mailto:contact@422run.app">contact@422run.app</a>. Nous répondons sous un mois.</li>
+</ul>
+<p>Tu peux aussi adresser une réclamation à la CNIL : <a href="https://www.cnil.fr/fr/plaintes">cnil.fr/fr/plaintes</a>.</p>
+
+<h2>8. Sécurité</h2>
+<p>Les échanges sont chiffrés (HTTPS). Chaque personne n'accède qu'à ses propres données et à ce que ses proches ont choisi de partager, grâce à des règles d'accès vérifiées par le serveur. Les clés techniques ne sont jamais dans l'app.</p>
+
+<h2>9. Enfants</h2>
+<p>42.2 s'adresse aux personnes de 15 ans et plus. En dessous, l'accord d'un parent est nécessaire.</p>
+
+<h2>10. Changements</h2>
+<p>Si cette politique change de façon importante, l'app te prévient avant que le changement s'applique. La date en haut de la page indique la dernière version.</p>
+
+<nav><a href="conditions.html">Conditions d'utilisation</a> · <a href="privacy.html">English</a></nav>
+</main>
+</body>
+</html>
